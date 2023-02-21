@@ -2,6 +2,7 @@ package chap_09.coffee;
 
 import chap_09.user.User;
 
+//User 클래스를 상속하는 타입만 받겠다
 public class CoffeeByUser <T extends User>{
     public T user;
 

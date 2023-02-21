@@ -2,7 +2,8 @@ package chap_09;
 
 public class _01_Generics {
     public static void main(String[] args) {
-        // 제네릭스
+        // 제네릭스 - 다양한 타입의 객체를 지원하는 클래스나 인터페이스 또는 메소드를 정의하는 방법
+        //wrapper 클래스
         Integer[] iArray = {1, 2, 3, 4, 5};
         Double[] dArray = {1.0, 2.0, 3.0, 4.0, 5.0};
         String[] sArray = {"A", "B", "C", "D", "E"};

@@ -1,10 +1,11 @@
 package chap_09;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class _06_HashSet {
     public static void main(String[] args) {
-        // 세트
+        //셋 중복 허용 X
         HashSet<String> set = new HashSet<>();
 
         // 데이터 추가
@@ -20,7 +21,7 @@ public class _06_HashSet {
 
         System.out.println("총 구매 상품 수 : " + set.size());
 
-        // 순회
+        // 셋은 순서 보장 X
         for (String s : set) {
             System.out.println(s);
         }
@@ -46,13 +47,25 @@ public class _06_HashSet {
         }
         System.out.println("------------------");
 
-        // 세트 : 중복 허용 X, 순서 보장 X
+        // 셋 : 중복 허용 X, 순서 보장 X
         HashSet<Integer> intSet = new HashSet<>();
         intSet.add(1);
         intSet.add(13);
         intSet.add(2);
 
         for (int i : intSet) {
+            System.out.println(i);
+        }
+
+        System.out.println("------------------");
+
+        //linkedHashSet - 순서보장
+        HashSet<Integer> linkedSet = new LinkedHashSet<>();
+        linkedSet.add(1);
+        linkedSet.add(13);
+        linkedSet.add(2);
+
+        for (int i : linkedSet) {
             System.out.println(i);
         }
     }

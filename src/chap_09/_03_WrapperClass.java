@@ -3,7 +3,7 @@ package chap_09;
 public class _03_WrapperClass {
     public static void main(String[] args) {
         // 래퍼 (Wrapper) 클래스
-        // int double float char
+        // int double float char 기본자료형을 객체형태로 만들어줌
 
         Integer i = 123; // int i = 123;
         Double d = 1.0; // double d = 1.0;

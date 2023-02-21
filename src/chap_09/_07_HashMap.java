@@ -4,7 +4,8 @@ import java.util.HashMap;
 
 public class _07_HashMap {
     public static void main(String[] args) {
-        // 맵 (Key, Value)
+        // 맵 (Key, Value), 순서보장 X
+        // LinkedHashMap 사용하면 순서보장
         HashMap<String, Integer> map = new HashMap<>();
 
         // 데이터 추가
@@ -51,7 +52,7 @@ public class _07_HashMap {
         map.put("김종국", 3);
         map.put("서장훈", 15);
 
-        // Key 확인
+        // Key 확인, 순서보장X
         for (String key : map.keySet()) {
             System.out.println(key);
         }
