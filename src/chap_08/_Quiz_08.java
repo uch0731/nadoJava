@@ -11,5 +11,6 @@ public class _Quiz_08 {
         speedCam.setReporter(new VideoReporter());
         speedCam.detect();
         speedCam.report();
+
     }
 }

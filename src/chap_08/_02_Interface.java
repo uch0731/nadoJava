@@ -9,6 +9,8 @@ import chap_08.reporter.*;
 public class _02_Interface {
     public static void main(String[] args) {
         // 인터페이스
+        // 인터페이스 클래스안에 인스턴트 변수는 public static final
+        // 인터페이스 클래스안에 함수는 public abstract
         Reportable normalReporter = new NormalReporter();
         normalReporter.report();
 

@@ -9,5 +9,5 @@ public abstract class Camera {
         System.out.println("동영상을 녹화합니다.");
     }
 
-    public abstract void showMainFeature(); // 구현해야 하는 메소드
+    public abstract void showMainFeature(); // 자식클래스에서 구현해야 하는 메소드
 }
